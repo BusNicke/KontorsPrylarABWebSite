@@ -81,7 +81,6 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Användare.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -97,6 +96,16 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kundbibliotek\Kundbibliotek.csproj">
+      <Project>{e4878847-63de-484a-91c8-4b93b99ea28d}</Project>
+      <Name>Kundbibliotek</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Produkter\Produktbibliotek.csproj">
+      <Project>{5928601b-709e-4f50-9f7e-94fa67b89a3a}</Project>
+      <Name>Produktbibliotek</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -4,11 +4,16 @@ using System.Web.Services;
 using System.Web.Services.Protocols;
 using System.ComponentModel;
 
-namespace E_Handelssite
+namespace Produktbibliotek
 {
-    public abstract class Användare
+    public class Papper : Produkt
     {
-        public string UserName
+        public Papper()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public string Färg
         {
             get
             {
@@ -20,7 +25,7 @@ namespace E_Handelssite
             }
         }
 
-        public string Password
+        public string Storlek
         {
             get
             {
@@ -32,7 +37,7 @@ namespace E_Handelssite
             }
         }
 
-        public bool IsAdmin
+        public string Kvalitet
         {
             get
             {
