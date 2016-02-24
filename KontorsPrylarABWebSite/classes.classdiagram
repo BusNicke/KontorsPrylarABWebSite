@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="14d1727d-ba30-4983-b7ce-611c15824f49" name="classes" linkedPackageId="2fa07116-f97a-4d7c-b571-e8de52bed8eb" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="1ae36f31-dd0f-4e6a-9784-f967998a8393">
+      <profileInstance Id="13a9380a-a949-4094-8619-2a3c10c53b64" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="fe52bf86-a87d-4b83-b285-23d87b934200">
+      <profileInstance Id="ae17bee5-ed80-4119-8ffb-193c92ed3fa8" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="04010374-50c1-4c33-8657-1b5e4574f527" name="Kund" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f1bea094-e576-41b1-be8c-56dbd959a012" />
+        <generalsInternal>
+          <generalization Id="14ad9fdb-392b-44f2-9f60-f4facdc80640" isSubstitutable="false">
+            <classMoniker Id="a89d61a5-6ba8-4784-b78e-5fbefe1f828c" LastKnownName="Användare" />
+            <elementDefinition Id="202916a1-9773-44e0-afe6-d81239f4c9f9" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="c5cda09c-7804-460d-9ef9-e3e036b03303" name="KundNummer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="70d64cbe-efaf-4c65-b696-3dca6dd31958" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="137813ce-8f1c-4408-9cf0-8b90268a7ed9" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="55ba0ed9-8cbc-4953-86c2-0c6e2e5eb972" name="Adress" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b12edbdc-d309-4e94-8bb5-9c3d23e8686f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="6c8957de-6eb6-427d-ba15-38b4c17573a8" LastKnownName="Adress" />
+            </type_NamedElement>
+          </property>
+          <property Id="465f449e-72ed-4a95-8bf9-58e7fbce68d1" name="Namn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ac640370-877d-4d42-a5fd-598099aee32d" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="ee288b73-0447-4777-a794-975d05b2cf69" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="0cf8671e-c61c-4a47-aa69-b437b58f6bb0" name="TelefonNummer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="e86da836-8583-4476-a990-6e9fec899970" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="5345467c-fa5e-43a0-aead-be11d39086e6" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="4b9f6105-5d7e-4094-82b9-699ece0d6d6b" name="EPost" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="456ebc60-edde-42aa-8bfb-80d99764cea6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="74bc5f7c-1b35-4c88-bfd1-5a22f7230688" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="0082ecd0-2f39-4afa-aa3a-0fb00f0138d1" name="Kund" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7daed6c1-fbe2-4839-ad08-041a9d208895" />
+          </operation>
+          <operation Id="8ca993fb-f340-413a-b057-c71e10ec71ec" name="LäggTillProdukt" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="923bdf6e-49cc-4475-bebf-9f0e9c7bc59e" />
+          </operation>
+          <operation Id="14ebcef3-f8d7-41db-b733-1b5709eb0089" name="TaBortProdukt" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7485bd8e-6990-4d50-957a-b2fe3d1ac370" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a89d61a5-6ba8-4784-b78e-5fbefe1f828c" name="Användare" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9026dd5f-868e-4f9a-babd-aba8a5126e77" />
+        <ownedAttributesInternal>
+          <property Id="987f1cf0-c8cf-49af-a171-adf4b6fbe668" name="Användarnamn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c8a92334-b415-4827-90ac-a96d2b530315" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="49c7b966-5b20-4b74-9ef5-741c1b50bc5d" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="d7709715-b9f5-4bc6-8940-eb2dfc9a0206" name="Lösenord" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ad6e24e5-842b-4069-9006-1d571781a4d5" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="7de67f4b-040c-47f5-b05b-694a996bd132" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="aff69937-a3aa-460f-bbf7-e277aa401ac5" name="ÄrAdmin" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2b952888-454a-4af1-82ef-b2a888ab0dc0" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="fad3e04d-352d-4744-9f4e-30e4c128f078" LastKnownName="Boolean" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8bfe819a-b88e-4dbf-803c-aa99562ab79a" name="Admin" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="24161e79-c8b9-4254-bb13-b1af64f06300" />
+        <generalsInternal>
+          <generalization Id="7ea30e72-a23c-43a3-9887-2ed96897dabc" isSubstitutable="false">
+            <classMoniker Id="a89d61a5-6ba8-4784-b78e-5fbefe1f828c" LastKnownName="Användare" />
+            <elementDefinition Id="33eb6982-ccbf-4833-a9f4-f8de65fda5be" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="fad3e04d-352d-4744-9f4e-30e4c128f078" name="Boolean" isAbstract="false" isLeaf="false" cachedFullName="Boolean">
+        <elementDefinition Id="8943dc84-709e-4f62-b15a-a3273aa6f165" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="7de67f4b-040c-47f5-b05b-694a996bd132" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="49c7b966-5b20-4b74-9ef5-741c1b50bc5d" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="74bc5f7c-1b35-4c88-bfd1-5a22f7230688" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="137813ce-8f1c-4408-9cf0-8b90268a7ed9" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="ee288b73-0447-4777-a794-975d05b2cf69" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="5345467c-fa5e-43a0-aead-be11d39086e6" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d802d384-7c16-40a7-90da-719e32ac06ca" name="Adress" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="569660ec-505b-43a4-bb5b-be470f71d24c" />
+        <ownedAttributesInternal>
+          <property Id="a54bb3b0-18ab-41b6-b599-43ab22629a76" name="Gata" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8604e25c-3489-4de6-9e6d-a1a783a83f0b" />
+          </property>
+          <property Id="6655bad1-2513-4036-b5c8-aaddb60ca9b0" name="Stad" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="da2711b0-89c0-473d-aee6-87c3f08c3b51" />
+          </property>
+          <property Id="0dee666a-2354-40bc-b829-f9d52da6f141" name="PostNummer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="11f59fdd-0f5d-4b3f-b7c8-a70465efc5a8" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="67f1a0e8-57e7-47ac-bc7a-07c79c1e4d37" name="Adress" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="c66f693a-7234-4f80-adda-d25121114d4d" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="6c8957de-6eb6-427d-ba15-38b4c17573a8" name="Adress" isAbstract="false" isLeaf="false" cachedFullName="KontorsPrylarABWebSite::Adress">
+        <elementDefinition Id="569660ec-505b-43a4-bb5b-be470f71d24c" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="2fa07116-f97a-4d7c-b571-e8de52bed8eb" name="KontorsPrylarABWebSite">
+    <elementDefinition Id="b8af65b8-4cac-4d02-9c2b-a7871e26158f" />
+  </package>
+</logicalClassDesignerModel>
