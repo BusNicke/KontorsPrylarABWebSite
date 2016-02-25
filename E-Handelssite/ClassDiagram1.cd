@@ -10,9 +10,49 @@
   <Class Name="E_Handelssite.masterPage" Collapsed="true">
     <Position X="5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <HashCode>AAAAAAAAgBAAAAAAAAAAAAAAIAAAAAAAAAAIAAIAgAA=</HashCode>
       <FileName>masterPage.Master.cs</FileName>
     </TypeIdentifier>
+  </Class>
+  <Class Name="Kundbibliotek.Admin">
+    <Position X="0.75" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Kundbibliotek.Adress">
+    <Position X="0.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Kundbibliotek.Användare" Collapsed="true">
+    <Position X="1.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Kundbibliotek.Kund">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Kundbibliotek.Order">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Produktbibliotek.Häftapparat">
+    <Position X="8.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Produktbibliotek.Papper">
+    <Position X="10.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Produktbibliotek.Penna">
+    <Position X="15" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Produktbibliotek.Produkt">
+    <Position X="11.25" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Produktbibliotek.Skrivare">
+    <Position X="12.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

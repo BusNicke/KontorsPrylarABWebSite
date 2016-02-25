@@ -4,6 +4,7 @@ using System.Web.Services;
 using System.Web.Services.Protocols;
 using System.ComponentModel;
 using System.Collections.Generic;
+using Produktbibliotek;
 
 namespace Kundbibliotek
 {
@@ -75,6 +76,18 @@ namespace Kundbibliotek
 
             set
             {
+            }
+        }
+
+        public List<Produkt> Varukorg
+        {
+            get
+            {
+                return Varukorg;
+            }
+            set
+            {
+
             }
         }
     }
