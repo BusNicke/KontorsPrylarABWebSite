@@ -3,18 +3,99 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head runat="server">
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/jquery-2.2.0.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <style>
+        #left_div {
+            /*background-color:grey;*/
+            width: 15%;
+            float: left;
+            height: 800px;
+        }
+
+        #right_div {
+            width: 15%;
+            /*background-color:grey;*/
+            float: right;
+            height: 800px;
+        }
+
+        #main_div {
+            width: 70%;
+            background-color: white;
+            float: left;
+            /*height: 215px;*/
+        }
+
+        #footer_div {
+            width: 100%;
+        }
+
+        .header {
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+        #header{
+            height: 100px;
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
-    </div>
+        <div>
+            <div id="header" class="header">
+                
+            </div>
+            <div id="header_meny" class="header">
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">Kontorsprylar AB</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">Home</a></li>
+                                <li><a href="#">Page 1</a></li>
+                                <li><a href="#">Page 2</a></li>
+                                <li><a href="#">Page 3</a></li>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div id="left_div">
+                <asp:ContentPlaceHolder ID="Left_Holder" runat="server">
+                </asp:ContentPlaceHolder>
+
+            </div>
+            <div id="main_div">
+                <asp:ContentPlaceHolder ID="mainBody_Holder" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="right_div">
+                <asp:ContentPlaceHolder ID="Right_Holder" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div id="footer_div">
+                <!-- Kod för footer som är konstant.-->
+            </div>
+
+        </div>
     </form>
 </body>
 </html>
