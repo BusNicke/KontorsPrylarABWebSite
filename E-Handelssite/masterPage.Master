@@ -30,7 +30,7 @@
             width: 70%;
             background-color: white;
             float: left;
-            /*height: 215px;*/
+            /*height: 215px;;*/
         }
 
         #footer_div {
@@ -49,9 +49,23 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <div id="header" class="header">
-                
+            <div id="header_top" class="header">
+                <div id="header_top_meny" class="header">
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar_top">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#"><span class="glyphicon glyphicon-user"></span>Sign Up</a></li>
+                                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Login</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
+            </div>
+
             <div id="header_meny" class="header">
                 <nav class="navbar navbar-inverse">
                     <div class="container-fluid">

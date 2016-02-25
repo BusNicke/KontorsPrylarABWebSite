@@ -119,9 +119,6 @@
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="index.aspx.designer.cs">
-      <DependentUpon>index.aspx</DependentUpon>
-    </Compile>
     <Compile Include="headContent.aspx.cs">
       <DependentUpon>headContent.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
