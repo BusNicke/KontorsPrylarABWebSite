@@ -67,6 +67,7 @@
     <Content Include="packages.config" />
     <Content Include="masterPage.Master" />
     <Content Include="ClassDiagram1.cd" />
+    <Content Include="pictures\kontorsprylarABLogga.png" />
     <Content Include="Scripts\jquery-2.2.0.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
