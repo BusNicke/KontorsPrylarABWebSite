@@ -50,6 +50,13 @@
             color: white;
             background-color: #fcb603;
         }
+
+        .glyphiconCustom {
+            font-size: 95%;
+            margin-top: 2%;
+            float: right;
+
+        }
     </style>
 </head>
 <body>
@@ -57,7 +64,27 @@
         <div>
             <div id="header" class="header">
                 <img src="pictures/kontorsprylarABLogga.png" style="height: 100px" />
-
+                <div class="glyphiconCustom">
+                    <button type="button" class="btn-link btn-lg">
+                        <span class="glyphicon glyphicon-shopping-cart"></span>
+                        <br>
+                        Varukorgen
+                    </button>
+                </div>
+                <div class="glyphiconCustom">
+                    <button type="button" class="btn-link btn-lg">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <br>
+                        Logga in
+                    </button>
+                </div>
+                <div class="glyphiconCustom">
+                    <button type="button" class="btn-link btn-lg">
+                        <span class="glyphicon glyphicon-map-marker"></span>
+                        <br>
+                        Om oss
+                    </button>
+                </div>
             </div>
             <div id="header_meny" class="header">
                 <nav class="navbar navbar-inverse navbar-custom">
