@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="E_Handelssite.Global" Collapsed="true">
-    <Position X="6" Y="2" Width="1.5" />
+    <Position X="4.75" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
       <FileName>Global.asax.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="E_Handelssite.masterPage" Collapsed="true">
-    <Position X="7.75" Y="2" Width="1.5" />
+  <Class Name="E_Handelssite.masterPage">
+    <Position X="6.5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAgBAAAAAAAAAAAAAAIAAAAAAAAAAIAAIAgAA=</HashCode>
+      <HashCode>AAAAAAAAgBAAAAAAAAAAAEAAIAAAAAAAAAAIAAIAgAE=</HashCode>
       <FileName>masterPage.Master.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -53,6 +53,20 @@
   <Class Name="Produktbibliotek.Skrivare">
     <Position X="12.75" Y="5.75" Width="1.5" />
     <TypeIdentifier />
+  </Class>
+  <Class Name="E_Handelssite.WebForm2" Collapsed="true">
+    <Position X="10" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>headContent.aspx.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="E_Handelssite.WebForm1">
+    <Position X="8.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAACAAAAAAAAAAAQAAAAQIAAIA=</HashCode>
+      <FileName>index.aspx.cs</FileName>
+    </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
