@@ -36,6 +36,14 @@
             <div class="item">
                 <img src="pictures/skrivare.jpg" alt="Printer of doom" />
             </div>
+
+            <div class="item">
+                <img src="pictures/Malmo.png" alt="Nu blir Patrik glad"/>
+            </div>
+
+            <div class="item">
+                <img src="pictures/peps.jpg" alt="Peps Persson är tung"/>
+            </div>
         </div>
 
         <!-- Left and right controls -->
