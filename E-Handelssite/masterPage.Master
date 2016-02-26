@@ -126,37 +126,32 @@
                                 <div class="dropdown">
                                     <button class="dropbtn">Pennor</button>
                                     <div class="dropdown-content">
-                                        <p>Hello World!</p>
-                                        <p>Hello World!</p>
-                                        <p>Hello World!</p>
-                                        <p>Hello World!</p>
-                                        <p>Hello World!</p>
-                                        <p>Hello World!</p>
-                                        <p>Hello World!</p>
+                                        <p>Blyerts</p>
+                                        <p>Bläck</p>
+                                        <p>Reservoarpennor</p>
+                                        <p>Tuschpennor</p>
+                                        <p>Stiftpennor</p>
+                                        <p>Överstrykningspennor</p>
                                     </div>
                                 </div>
                                 <div class="dropdown">
                                     <button class="dropbtn">Papper</button>
                                     <div class="dropdown-content">
-                                        <p>Hello World!</p>
-                                        <p>Hello World!</p>
-                                        <p>Hello World!</p>
-                                        <p>Hello World!</p>
-                                        <p>Hello World!</p>
-                                        <p>Hello World!</p>
-                                        <p>Hello World!</p>
+                                        <p>Kuvert</p>
+                                        <p>Baspapper</p>
+                                        <p>Skisspapper</p>
+                                        <p>Grafikpapper</p>
+                                        <p>Brevpapper</p>
+                                        <p>Transparenta</p>
                                     </div>
                                 </div>
                                 <div class="dropdown">
                                     <button class="dropbtn">Häftapparat</button>
                                     <div class="dropdown-content">
-                                        <p>Hello World!</p>
-                                        <p>Hello World!</p>
-                                        <p>Hello World!</p>
-                                        <p>Hello World!</p>
-                                        <p>Hello World!</p>
-                                        <p>Hello World!</p>
-                                        <p>Hello World!</p>
+                                        <p>Automatiska</p>
+                                        <p>Analoga</p>
+                                        <p>Häftklammer</p>
+                                        <p>Häftpistol</p>
                                     </div>
                                 </div>
                                 <div class="dropdown">
