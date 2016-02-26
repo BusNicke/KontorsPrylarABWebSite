@@ -13,5 +13,12 @@ namespace E_Handelssite
         {
 
         }
+        private void LoginUser()
+        {
+        }
+        private void UpdateCart()
+        {
+
+        }
     }
 }
