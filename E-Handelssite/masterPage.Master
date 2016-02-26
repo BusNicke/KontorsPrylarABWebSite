@@ -62,11 +62,14 @@
             float: right;
         }
 
+        a:link    {color:white; background-color:transparent; text-decoration:none}
+
         .dropdown {
             position: relative;
             display: inline-block;
         }
-        .margin{
+
+        .margin {
             background-color: white;
             margin-top: 10px;
             margin-left: 15%;
@@ -122,13 +125,38 @@
                         Varukorgen
                     </button>
                 </div>
-                <div class="glyphiconCustom">
+                <div class="dropdown glyphiconCustom">
+                    <%--<div class="glyphiconCustom">
+                    <button type="button" class="btn-link btn-lg">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <br>
+                        Logga in
+                    </button>--%>
                     <button type="button" class="btn-link btn-lg">
                         <span class="glyphicon glyphicon-user"></span>
                         <br>
                         Logga in
                     </button>
+                    <div class="dropdown-content">
+                        <div class="form-group">
+                            <label for="usr">Name:</label>
+                            <input type="text" class="form-control" id="usr">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control" id="pwd">
+                        </div>
+                        <div class="form-group">
+                            <button type="button" class="btn btn-default" style="float:right">Logga in</button>
+                            <br>
+                        </div>
+                        <div class="form-group" style="float:right">
+                            <a href="#">Skapa konto</a>
+                        </div>
+                        
+                    </div>
                 </div>
+
                 <div class="glyphiconCustom">
                     <button type="button" class="btn-link btn-lg">
                         <span class="glyphicon glyphicon-map-marker"></span>
@@ -141,53 +169,47 @@
                 <nav class="navbar navbar-inverse navbar-custom">
                     <div class="container-fluid">
                         <div class="collapse navbar-collapse" id="myNavbar">
-                            <ul class="nav navbar-nav">
-                                <%--<li class="active"><a href="#">Home</a></li>--%>
-                                <div class="dropdown">
-                                    <button class="dropbtn">Pennor</button>
-                                    <div class="dropdown-content">
-                                        <p>Blyerts</p>
-                                        <p>Bläck</p>
-                                        <p>Reservoarpennor</p>
-                                        <p>Tuschpennor</p>
-                                        <p>Stiftpennor</p>
-                                        <p>Överstrykningspennor</p>
-                                    </div>
+                            <%--<li class="active"><a href="#">Home</a></li>--%>
+                            <div class="dropdown">
+                                <button class="dropbtn">Pennor</button>
+                                <div class="dropdown-content">
+                                    <p>Blyerts</p>
+                                    <p>Bläck</p>
+                                    <p>Reservoarpennor</p>
+                                    <p>Tuschpennor</p>
+                                    <p>Stiftpennor</p>
+                                    <p>Överstrykningspennor</p>
                                 </div>
-                                <div class="dropdown">
-                                    <button class="dropbtn">Papper</button>
-                                    <div class="dropdown-content">
-                                        <p>Kuvert</p>
-                                        <p>Baspapper</p>
-                                        <p>Skisspapper</p>
-                                        <p>Grafikpapper</p>
-                                        <p>Brevpapper</p>
-                                        <p>Transparenta</p>
-                                    </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">Papper</button>
+                                <div class="dropdown-content">
+                                    <p>Kuvert</p>
+                                    <p>Baspapper</p>
+                                    <p>Skisspapper</p>
+                                    <p>Grafikpapper</p>
+                                    <p>Brevpapper</p>
+                                    <p>Transparenta</p>
                                 </div>
-                                <div class="dropdown">
-                                    <button class="dropbtn">Häftapparat</button>
-                                    <div class="dropdown-content">
-                                        <p>Automatiska</p>
-                                        <p>Analoga</p>
-                                        <p>Häftklammer</p>
-                                        <p>Häftpistol</p>
-                                    </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">Häftapparat</button>
+                                <div class="dropdown-content">
+                                    <p>Automatiska</p>
+                                    <p>Analoga</p>
+                                    <p>Häftklammer</p>
+                                    <p>Häftpistol</p>
                                 </div>
-                                <div class="dropdown">
-                                    <button class="dropbtn">Skrivare</button>
-                                    <div class="dropdown-content">
-                                        <p>Laserskrivare</p>
-                                        <p>Bläckskrivare</p>
-                                        <p>Bläckfisk</p>
-                     Multiskrivare</p>
-                                    </div>
+                            </div>
+                            <div class="dropdown">
+                                <button class="dropbtn">Skrivare</button>
+                                <div class="dropdown-content">
+                                    <p>Laserskrivare</p>
+                                    <p>Bläckskrivare</p>
+                                    <p>Bläckfisk</p>
+                                    <p>Multiskrivare</p>
                                 </div>
-                                <%--<li><a href="#">Papper</a></li>
-                                <li><a href="#">Pennor</a></li>
-                                <li><a href="#">Skrivare</a></li>
-                                <li><a href="#">Häftapparat</a></li>--%>
-                            </ul>
+                            </div>
                         </div>
                     </div>
                 </nav>
@@ -206,7 +228,7 @@
                 </asp:ContentPlaceHolder>
             </div>
             <div class="margin">
-                <p> &nbsp;&nbsp; &nbsp;</p>
+                <p>&nbsp;&nbsp; &nbsp;</p>
             </div>
             <div class="footer_div footer">
                 <div class="bottom-menu">
