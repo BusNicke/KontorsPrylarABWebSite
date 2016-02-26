@@ -30,6 +30,7 @@
             width: 70%;
             background-color: white;
             float: left;
+            margin-bottom: 50px;
             /*height: 215px;*/
         }
 
@@ -65,6 +66,12 @@
             position: relative;
             display: inline-block;
         }
+        .margin{
+            background-color: white;
+            margin-top: 10px;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
 
         .dropdown-content {
             display: none;
@@ -87,6 +94,19 @@
             font-size: 16px;
             border: none;
             cursor: pointer;
+        }
+
+        .footer {
+            background-color: #e8e8e8;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 50px;
+        }
+
+        .footer-info {
+            /*float: left;*/
+            margin-top: 5px;
+            margin-left: 5px;
         }
     </style>
 </head>
@@ -160,7 +180,7 @@
                                         <p>Laserskrivare</p>
                                         <p>Bläckskrivare</p>
                                         <p>Bläckfisk</p>
-                                        <p>Multiskrivare</p>
+                     Multiskrivare</p>
                                     </div>
                                 </div>
                                 <%--<li><a href="#">Papper</a></li>
@@ -185,10 +205,21 @@
                 <asp:ContentPlaceHolder ID="Right_Holder" runat="server">
                 </asp:ContentPlaceHolder>
             </div>
-            <div id="footer_div">
-                <!-- Kod för footer som är konstant.-->
+            <div class="margin">
+                <p> &nbsp;&nbsp; &nbsp;</p>
             </div>
-
+            <div class="footer_div footer">
+                <div class="bottom-menu">
+                    <p class="copyright-text">Copyright &copy; Coca-Cola</p>
+                    <ul>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a class="feedback" href="#">Report Error</a></li>
+                        <li><a href="#top" target="_top">Top</a></li>
+                    </ul>
+                    <div class="clear">&nbsp;</div>
+                </div>
+            </div>
         </div>
     </form>
 </body>

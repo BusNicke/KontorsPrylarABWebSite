@@ -17,11 +17,15 @@
             border: 5px solid #5099C7;
             padding: 20px;
             width: 250px;
-            height: 350px;
+            height: 450px;
         }
 
         .popular-pic {
             width: 200px;
+        }
+        .buyTitle{
+            font-style: italic;
+            font-weight: bold;
         }
     </style>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -73,24 +77,27 @@
 
     <div class="popular">
         <img src="pictures/bestBuy/haftapparat.jpg" class="popular-pic" />
-        Häftapparat Rapid K2 Svart, 50 ark:<br />
+        <br />
+        <p class="buyTitle">Häftapparat Rapid K2 Svart:<br /></p>
         En klassiker i svenskt stål, härdat i alla slitdelar. Med antiglidfötter som skyddar bordsskivan. 
     </div>
     <div class="popular">
-        Papper Image Coloraction A4 Hålat 80g:<br />
         <img src="pictures/bestBuy/paper.jpg" class="popular-pic" />
         <br />
+        <p class="buyTitle">Papper Image Coloraction A4:<br /></p>
         Image Coloraction ger utrymme för kreativitet. Kombinationen av många färger och ytvikter ger oändliga möjligheter. Färgerna drar uppmärksamheten åt sig och ger tydliga signaler i sin kommunikation. 
     </div>
     <div class="popular">
-        Ballograf penna, rosa:<br />
         <img src="pictures/bestBuy/pen.jpg" class="popular-pic" />
+        <br />
+        <p class="buyTitle">Ballograf penna, rosa:<br /></p>
         Ballograf penna från Hay. Den är tillbaka! Kontorspennan med hållare och nu i fin matt pastellfärg. En perfekt inredningsdetalj att ha tillhands i hallen, kontoret eller i köket. En penna behövs nära och denna är dessutom snygg. Kulspetsfärgen är svart.  
     </div>
     <div class="popular">
-        HP Envy 4524 AIO Bläckstråleskrivare i färg (Vit):<br />
         <img src="pictures/bestBuy/skriavre.jpg" class="popular-pic" />
-        HP Envy 4524 AIO Bläckstråleskrivare ger dig utskrifter, foton, scanning och kopior av hög kvalitet. Tack vare Wi-Fi kan du skriva ut vart du än befinner dig.
+        <br />
+        <p class="buyTitle">4524 Bläckstråleskrivare:<br /></p>
+        Canon Envy 4524 AIO Bläckstråleskrivare ger dig utskrifter, foton, scanning och kopior av hög kvalitet. Tack vare Wi-Fi kan du skriva ut vart du än befinner dig.
     </div>
 
 </asp:Content>
