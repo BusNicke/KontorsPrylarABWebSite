@@ -67,9 +67,13 @@
     <Content Include="packages.config" />
     <Content Include="masterPage.Master" />
     <Content Include="ClassDiagram1.cd" />
-    <Content Include="pictures\kontorsprylarABLogga.png" />
-    <Content Include="pictures\Malmo.png" />
-    <Content Include="pictures\peps.jpg" />
+    <Content Include="pictures\bestBuy\haftapparat.jpg" />
+    <Content Include="pictures\bestBuy\paper.jpg" />
+    <Content Include="pictures\bestBuy\pen.jpg" />
+    <Content Include="pictures\bestBuy\skriavre.jpg" />
+    <Content Include="pictures\Logga\kontorsprylarABLogga.png" />
+    <Content Include="pictures\carousel\Malmo.png" />
+    <Content Include="pictures\carousel\peps.jpg" />
     <Content Include="Scripts\jquery-2.2.0.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -93,10 +97,10 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="pictures\haftapparat.jpg" />
-    <Content Include="pictures\papper.png" />
-    <Content Include="pictures\penna.jpg" />
-    <Content Include="pictures\skrivare.jpg" />
+    <Content Include="pictures\carousel\haftapparat.jpg" />
+    <Content Include="pictures\carousel\papper.png" />
+    <Content Include="pictures\carousel\penna.jpg" />
+    <Content Include="pictures\carousel\skrivare.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="index.aspx" />

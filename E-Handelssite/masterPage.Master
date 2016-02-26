@@ -94,7 +94,7 @@
     <form id="form1" runat="server">
         <div>
             <div id="header" class="header">
-                <img src="pictures/kontorsprylarABLogga.png" style="height: 100px" />
+                <img src="pictures/Logga/kontorsprylarABLogga.png" style="height: 100px" />
                 <div class="glyphiconCustom">
                     <button type="button" class="btn-link btn-lg">
                         <span class="glyphicon glyphicon-shopping-cart"></span>
