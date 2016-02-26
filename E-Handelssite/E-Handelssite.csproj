@@ -71,6 +71,7 @@
     <Content Include="pictures\bestBuy\paper.jpg" />
     <Content Include="pictures\bestBuy\pen.jpg" />
     <Content Include="pictures\bestBuy\skriavre.jpg" />
+    <Content Include="pictures\Logga\cocacolaLogga.jpg" />
     <Content Include="pictures\Logga\kontorsprylarABLogga.png" />
     <Content Include="pictures\carousel\Malmo.png" />
     <Content Include="pictures\carousel\peps.jpg" />

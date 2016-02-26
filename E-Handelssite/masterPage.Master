@@ -62,7 +62,9 @@
             float: right;
         }
 
-        a:link    {color:white; background-color:transparent; text-decoration:none}
+        a:link {
+            color:white; background-color:transparent; text-decoration:none
+        }
 
         .dropdown {
             position: relative;
@@ -238,6 +240,7 @@
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a class="feedback" href="#">Report Error</a></li>
                         <li><a href="#top" target="_top">Top</a></li>
+                        <img src="pictures/Logga/cocacolaLogga.jpg" style="width:150px"/>
                     </ul>
                     <div class="clear">&nbsp;</div>
                 </div>
